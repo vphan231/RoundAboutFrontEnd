@@ -10,7 +10,7 @@ function Listing(props) {
 
   return (
     <div className="App">
-      <h1>Listing, {props.name}</h1>
+      <h1>Display Listing: {props.name}</h1>
       <div>
         <label>You clicked {count} times </label>
         <button onClick={updateCount}> Click </button>
